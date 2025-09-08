@@ -1,0 +1,103 @@
+{
+  "settings": {
+    "signup": false,
+    "createuserdir": false,
+    "userhomebasepath": "/users",
+    "defaults": {
+      "scope": ".",
+      "locale": "zh-cn",
+      "viewmode": "list",
+      "singleclick": false,
+      "sorting": {
+        "by": "",
+        "asc": false
+      },
+      "perm": {
+        "admin": false,
+        "execute": true,
+        "create": true,
+        "rename": true,
+        "modify": true,
+        "delete": true,
+        "share": true,
+        "download": true
+      },
+      "commands": [
+        "apk",
+        "awk",
+        "cat",
+        "curl",
+        "dos2unix",
+        "env",
+        "git",
+        "grep",
+        "gunzip",
+        "gzip",
+        "head",
+        "helm",
+        "kubectl",
+        "ls",
+        "netstat",
+        "ps",
+        "pwd",
+        "tail",
+        "tar",
+        "tree",
+        "unzip",
+        "wget"
+      ],
+      "hidedotfiles": false,
+      "dateformat": true
+    },
+    "authmethod": "json",
+    "branding": {
+      "name": "kubectl-filebrowser",
+      "disableexternal": true,
+      "disableusedpercentage": true,
+      "files": "",
+      "theme": "",
+      "color": ""
+    },
+    "tus": {
+      "chunksize": 1048576,
+      "retrycount": 3
+    },
+    "commands": {
+      "after_copy": [],
+      "after_delete": [],
+      "after_rename": [],
+      "after_save": [],
+      "after_upload": [],
+      "before_copy": [],
+      "before_delete": [],
+      "before_rename": [],
+      "before_save": [],
+      "before_upload": []
+    },
+    "shell": [ "bash", "-c" ],
+    "rules": [],
+    "minimumpasswordlength": 4,
+    "filemode": 416,
+    "dirmode": 488
+  },
+  "server": {
+    "// root": ".",
+    "baseurl": "",
+    "socket": "",
+    "tlskey": "",
+    "tlscert": "",
+    "port": "9999",
+    "address": "0.0.0.0",
+    "log": "stdout",
+    "enablethumbnails": false,
+    "resizepreview": false,
+    "enableexec": false,
+    "typedetectionbyheader": false,
+    "authhook": "",
+    "tokenexpirationtime": ""
+  },
+  "auther": {
+    "recaptcha": null
+  },
+  "database": "/etc/filebrowser/filebrowser.db"
+}
